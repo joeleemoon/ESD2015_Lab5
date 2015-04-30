@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15EFEF871AF255950046C879 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EFEF861AF255950046C879 /* main.m */; };
+		15EFEF8A1AF255950046C879 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EFEF891AF255950046C879 /* AppDelegate.m */; };
+		15EFEF8D1AF255950046C879 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EFEF8C1AF255950046C879 /* ViewController.m */; };
+		15EFEF901AF255950046C879 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15EFEF8E1AF255950046C879 /* Main.storyboard */; };
+		15EFEF921AF255950046C879 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15EFEF911AF255950046C879 /* Images.xcassets */; };
+		15EFEF951AF255950046C879 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15EFEF931AF255950046C879 /* LaunchScreen.xib */; };
+		15EFEFA11AF255950046C879 /* HorseRacingGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EFEFA01AF255950046C879 /* HorseRacingGameTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15EFEF9B1AF255950046C879 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15EFEF791AF255950046C879 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15EFEF801AF255950046C879;
+			remoteInfo = HorseRacingGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15EFEF811AF255950046C879 /* HorseRacingGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HorseRacingGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15EFEF851AF255950046C879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15EFEF861AF255950046C879 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		15EFEF881AF255950046C879 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		15EFEF891AF255950046C879 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		15EFEF8B1AF255950046C879 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		15EFEF8C1AF255950046C879 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		15EFEF8F1AF255950046C879 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15EFEF911AF255950046C879 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		15EFEF941AF255950046C879 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		15EFEF9A1AF255950046C879 /* HorseRacingGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HorseRacingGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15EFEF9F1AF255950046C879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15EFEFA01AF255950046C879 /* HorseRacingGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HorseRacingGameTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15EFEF7E1AF255950046C879 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15EFEF971AF255950046C879 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15EFEF781AF255950046C879 = {
+			isa = PBXGroup;
+			children = (
+				15EFEF831AF255950046C879 /* HorseRacingGame */,
+				15EFEF9D1AF255950046C879 /* HorseRacingGameTests */,
+				15EFEF821AF255950046C879 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15EFEF821AF255950046C879 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15EFEF811AF255950046C879 /* HorseRacingGame.app */,
+				15EFEF9A1AF255950046C879 /* HorseRacingGameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15EFEF831AF255950046C879 /* HorseRacingGame */ = {
+			isa = PBXGroup;
+			children = (
+				15EFEF881AF255950046C879 /* AppDelegate.h */,
+				15EFEF891AF255950046C879 /* AppDelegate.m */,
+				15EFEF8B1AF255950046C879 /* ViewController.h */,
+				15EFEF8C1AF255950046C879 /* ViewController.m */,
+				15EFEF8E1AF255950046C879 /* Main.storyboard */,
+				15EFEF911AF255950046C879 /* Images.xcassets */,
+				15EFEF931AF255950046C879 /* LaunchScreen.xib */,
+				15EFEF841AF255950046C879 /* Supporting Files */,
+			);
+			path = HorseRacingGame;
+			sourceTree = "<group>";
+		};
+		15EFEF841AF255950046C879 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15EFEF851AF255950046C879 /* Info.plist */,
+				15EFEF861AF255950046C879 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		15EFEF9D1AF255950046C879 /* HorseRacingGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				15EFEFA01AF255950046C879 /* HorseRacingGameTests.m */,
+				15EFEF9E1AF255950046C879 /* Supporting Files */,
+			);
+			path = HorseRacingGameTests;
+			sourceTree = "<group>";
+		};
+		15EFEF9E1AF255950046C879 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15EFEF9F1AF255950046C879 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15EFEF801AF255950046C879 /* HorseRacingGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15EFEFA41AF255950046C879 /* Build configuration list for PBXNativeTarget "HorseRacingGame" */;
+			buildPhases = (
+				15EFEF7D1AF255950046C879 /* Sources */,
+				15EFEF7E1AF255950046C879 /* Frameworks */,
+				15EFEF7F1AF255950046C879 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HorseRacingGame;
+			productName = HorseRacingGame;
+			productReference = 15EFEF811AF255950046C879 /* HorseRacingGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15EFEF991AF255950046C879 /* HorseRacingGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15EFEFA71AF255950046C879 /* Build configuration list for PBXNativeTarget "HorseRacingGameTests" */;
+			buildPhases = (
+				15EFEF961AF255950046C879 /* Sources */,
+				15EFEF971AF255950046C879 /* Frameworks */,
+				15EFEF981AF255950046C879 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15EFEF9C1AF255950046C879 /* PBXTargetDependency */,
+			);
+			name = HorseRacingGameTests;
+			productName = HorseRacingGameTests;
+			productReference = 15EFEF9A1AF255950046C879 /* HorseRacingGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15EFEF791AF255950046C879 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Lee Joe";
+				TargetAttributes = {
+					15EFEF801AF255950046C879 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					15EFEF991AF255950046C879 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 15EFEF801AF255950046C879;
+					};
+				};
+			};
+			buildConfigurationList = 15EFEF7C1AF255950046C879 /* Build configuration list for PBXProject "HorseRacingGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15EFEF781AF255950046C879;
+			productRefGroup = 15EFEF821AF255950046C879 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15EFEF801AF255950046C879 /* HorseRacingGame */,
+				15EFEF991AF255950046C879 /* HorseRacingGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15EFEF7F1AF255950046C879 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15EFEF901AF255950046C879 /* Main.storyboard in Resources */,
+				15EFEF951AF255950046C879 /* LaunchScreen.xib in Resources */,
+				15EFEF921AF255950046C879 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15EFEF981AF255950046C879 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15EFEF7D1AF255950046C879 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15EFEF8D1AF255950046C879 /* ViewController.m in Sources */,
+				15EFEF8A1AF255950046C879 /* AppDelegate.m in Sources */,
+				15EFEF871AF255950046C879 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15EFEF961AF255950046C879 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15EFEFA11AF255950046C879 /* HorseRacingGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15EFEF9C1AF255950046C879 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15EFEF801AF255950046C879 /* HorseRacingGame */;
+			targetProxy = 15EFEF9B1AF255950046C879 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15EFEF8E1AF255950046C879 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15EFEF8F1AF255950046C879 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15EFEF931AF255950046C879 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15EFEF941AF255950046C879 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15EFEFA21AF255950046C879 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		15EFEFA31AF255950046C879 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15EFEFA51AF255950046C879 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HorseRacingGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		15EFEFA61AF255950046C879 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HorseRacingGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		15EFEFA81AF255950046C879 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HorseRacingGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HorseRacingGame.app/HorseRacingGame";
+			};
+			name = Debug;
+		};
+		15EFEFA91AF255950046C879 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HorseRacingGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HorseRacingGame.app/HorseRacingGame";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15EFEF7C1AF255950046C879 /* Build configuration list for PBXProject "HorseRacingGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15EFEFA21AF255950046C879 /* Debug */,
+				15EFEFA31AF255950046C879 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15EFEFA41AF255950046C879 /* Build configuration list for PBXNativeTarget "HorseRacingGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15EFEFA51AF255950046C879 /* Debug */,
+				15EFEFA61AF255950046C879 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		15EFEFA71AF255950046C879 /* Build configuration list for PBXNativeTarget "HorseRacingGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15EFEFA81AF255950046C879 /* Debug */,
+				15EFEFA91AF255950046C879 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15EFEF791AF255950046C879 /* Project object */;
+}
