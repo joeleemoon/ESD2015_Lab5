@@ -14,6 +14,7 @@
 		15EFEF921AF255950046C879 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15EFEF911AF255950046C879 /* Images.xcassets */; };
 		15EFEF951AF255950046C879 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15EFEF931AF255950046C879 /* LaunchScreen.xib */; };
 		15EFEFA11AF255950046C879 /* HorseRacingGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EFEFA01AF255950046C879 /* HorseRacingGameTests.m */; };
+		15EFEFAC1AF2573E0046C879 /* Horse.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EFEFAB1AF2573E0046C879 /* Horse.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		15EFEF9A1AF255950046C879 /* HorseRacingGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HorseRacingGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15EFEF9F1AF255950046C879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15EFEFA01AF255950046C879 /* HorseRacingGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HorseRacingGameTests.m; sourceTree = "<group>"; };
+		15EFEFAA1AF2573E0046C879 /* Horse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Horse.h; sourceTree = "<group>"; };
+		15EFEFAB1AF2573E0046C879 /* Horse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Horse.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				15EFEF911AF255950046C879 /* Images.xcassets */,
 				15EFEF931AF255950046C879 /* LaunchScreen.xib */,
 				15EFEF841AF255950046C879 /* Supporting Files */,
+				15EFEFAA1AF2573E0046C879 /* Horse.h */,
+				15EFEFAB1AF2573E0046C879 /* Horse.m */,
 			);
 			path = HorseRacingGame;
 			sourceTree = "<group>";
@@ -222,6 +227,7 @@
 				15EFEF8D1AF255950046C879 /* ViewController.m in Sources */,
 				15EFEF8A1AF255950046C879 /* AppDelegate.m in Sources */,
 				15EFEF871AF255950046C879 /* main.m in Sources */,
+				15EFEFAC1AF2573E0046C879 /* Horse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
